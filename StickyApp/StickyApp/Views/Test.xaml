@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StickyApp.Views.Test">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView x:Name="scrollmain" Scrolled="scrollmain_Scrolled" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" Margin="0,0,0,0">
+                <StackLayout>
+                    <StackLayout>
+                        <Frame>
+                            <Image Source="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                        </Frame>
+                        <Frame>
+                            <Image Source="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                        </Frame>
+                        <Label Text="DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC."/>
+                        <!--More and More-->
+                    </StackLayout>
+                    <StackLayout>
+                        <!--Menu I want it Sticky-->
+                        <ScrollView Margin="0,15" x:Name="_menucate" Orientation="Horizontal" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" BackgroundColor="#ddd">
+                            <Grid Margin="0" Padding="5,15" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" ColumnSpacing="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 1" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="2" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="3" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="4" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="5" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="6" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="7" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="8" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="9" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Menu 2" />
+                                </Grid>
+                            </Grid>
+                        </ScrollView>
+                        <StackLayout>
+                            <Frame>
+                                <Image Source="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                            </Frame>
+                            <Frame>
+                                <Image Source="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                            </Frame>
+                            <Label Text="DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC. DC is home to the World Greatest Super Heroes including SUPERMAN, BATMAN, WONDER WOMAN. DCComics.com: Welcome to the Official Site for DC."/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
